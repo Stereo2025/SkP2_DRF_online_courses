@@ -17,10 +17,8 @@
 4. Инициализация базы данных (только при первом запуске):
    Если вы запускаете проект впервые, вам нужно выполнить миграции и создать суперпользователя для Django.
 
-   docker-compose exec app bash
-   Затем выполните миграции и создайте суперпользователя:
-   python manage.py migrate
-   python manage.py createsuperuser
+   docker-compose exec app python manage.py migrate
+   docker-compose exec app python manage.py createsuperuser
     
 ### Взаимодействие с приложением:
 
