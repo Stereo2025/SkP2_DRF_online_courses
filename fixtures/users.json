@@ -1,0 +1,14 @@
+[
+    {
+        "model": "users.User",
+        "pk": 2,
+        "fields": {
+            "password": "qweq1w2e3",
+            "email": "user@example.com",
+            "phone": "89991233222",
+            "city": "Vologda",
+            "is_staff": false,
+            "is_active": true
+        }
+    }
+]

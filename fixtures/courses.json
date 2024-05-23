@@ -1,0 +1,11 @@
+[
+    {
+        "model": "lessons.course",
+        "pk": 2,
+        "fields": {
+            "name": "Основы программирования",
+            "description": "Курс по основам программирования.",
+            "image": null
+        }
+    }
+]
